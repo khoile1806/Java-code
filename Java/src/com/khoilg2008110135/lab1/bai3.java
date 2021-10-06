@@ -1,4 +1,4 @@
-package com.khoilg2008110135.lab1;
+package Java.src.com.khoilg2008110135.lab1;
 import java.util.Scanner;
 
 public class bai3 {
