@@ -1,4 +1,4 @@
-package Java.src.com.khoilg2008110135.lab3;
+package com.khoilg2008110135.lab3;
 
 import java.util.Scanner;
 

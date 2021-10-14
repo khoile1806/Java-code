@@ -1,4 +1,4 @@
-package Java.src.com.khoile;
+package com.khoile;
 import java .util.Scanner;
 
 public class Account {

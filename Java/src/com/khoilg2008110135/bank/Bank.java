@@ -1,4 +1,4 @@
-package Java.src.com.khoilg2008110135.bank;
+package com.khoilg2008110135.bank;
 
 public class Bank {
 	public static void main(String[] args) {

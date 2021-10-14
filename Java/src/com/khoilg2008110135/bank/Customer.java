@@ -1,4 +1,4 @@
-package Java.src.com.khoilg2008110135.bank;
+package com.khoilg2008110135.bank;
 import java .util.Scanner;
 
 import java.util.Scanner;
