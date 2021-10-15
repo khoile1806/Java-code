@@ -1,8 +1,6 @@
 package com.khoilg2008110135.bank;
 import java .util.Scanner;
 
-import java.util.Scanner;
-
 public class Customer {
 	String name;
 	String address;
