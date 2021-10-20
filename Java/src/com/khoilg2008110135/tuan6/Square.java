@@ -1,7 +1,7 @@
 package com.khoilg2008110135.tuan6;
 
 public class Square {
-    String Suond = "Square sound";
+    String Sound = "Square sound";
     boolean click = false;
 
     void rotare() {
@@ -11,7 +11,7 @@ public class Square {
 
     void play() {
         if (click == true) {
-            System.out.printf("sound playing: " + Suond);
+            System.out.printf("sound playing: " + Sound);
         } else
             System.out.printf("error");
     }
