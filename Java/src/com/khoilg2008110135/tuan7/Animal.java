@@ -1,25 +1,26 @@
 package com.khoilg2008110135.tuan7;
 
 public class Animal {
-    private String picture;
-    private String food;
-    private String boundaries;
-    private int hunger;
-    private int location;
-
-    protected void makeNoices() {
-        System.out.println("hahaha");
+    protected void Sound(){
+        System.out.println("Animal Sound !!!");
+    };
+    protected String Food;
+    protected void Pictures(){
+        System.out.println("Animal Pictures !!!");
+    };
+    protected void makeNoices(){
+        System.out.println("Barking !!!");
     }
 
-    protected void eatFood() {
-        System.out.println("an uong");
+    protected void eatFood(){
+        System.out.println("Eating food !!!");
     }
 
-    protected void sleep(){
-        System.out.println("kho kho");
+    protected void Sleep(){
+        System.out.println("Sleeping !!!");
     }
 
-    protected void roam(){
-        System.out.println("di vong quanh");
+    protected void Roam(){
+        System.out.println("Walking !!!");
     }
 }

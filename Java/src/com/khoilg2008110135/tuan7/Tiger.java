@@ -1,7 +1,6 @@
 package com.khoilg2008110135.tuan7;
 
-public class Lion extends Feline {
-
+public class Tiger extends Feline {
     @Override
     protected void eatFood (){
         System.out.println("all of meat !!!");
@@ -9,7 +8,7 @@ public class Lion extends Feline {
 
     @Override
     protected void makeNoices(){
-        System.out.println("Lion Barking !!!");
+        System.out.println("Tiger Barking !!!");
     }
 
     void Chase(){
@@ -17,6 +16,6 @@ public class Lion extends Feline {
     }
 
     void Work(){
-        System.out.println("Hunting in packs!!!");
+        System.out.println("Alone Hunting !!!");
     }
 }

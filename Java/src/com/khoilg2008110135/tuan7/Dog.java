@@ -1,15 +1,22 @@
 package com.khoilg2008110135.tuan7;
 
-public class Dog extends Animal {
-    protected void ruotMeo(){
-        System.out.println("chay di con mon leo");
+public class Dog extends Canine {
+
+    @Override
+    protected void makeNoices(){
+        System.out.println("Dog barking !!!");
     }
 
-    protected void eat(){
-        System.out.println("cho an cut");
+    @Override
+    protected void eatFood(){
+        System.out.println("eat dog food !!!");
+    } 
+
+    void Chase(){
+        System.out.println("cashing Cat !!!");
     }
 
-    protected void roam(){
-        System.out.println("chay quanh nha");
+    void Work(){
+        System.out.println("Stay home !!!");
     }
 }
