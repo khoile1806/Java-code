@@ -1,4 +1,4 @@
-package com.khoilg2008110135.tuan7;
+package com.khoilg2008110135.tuan7.animal;
 
 public class TestDriver {
     public static void main(String[] args){
