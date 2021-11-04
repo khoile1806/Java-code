@@ -7,10 +7,7 @@ public class SanPham {
 	private double donGia;
 	private double giamGia;
 
-	public SanPham()
-	{
-
-	}
+	public SanPham(){}
 
 	/**
 	 * @param tenSp
@@ -18,6 +15,7 @@ public class SanPham {
 	 * @param giamGia
 	 */
 	public SanPham(String tenSp, double donGia, double giamGia) {
+        super();
 		this.tenSp = tenSp;
 		this.donGia = donGia;
 		this.giamGia = giamGia;
@@ -90,5 +88,6 @@ public class SanPham {
 		donGia = scanner.nextDouble();
 		System.out.print("Nhập phieu giảm giá: ");
 		giamGia = scanner.nextDouble();
+		System.out.println("-------------------");
 	}
 }

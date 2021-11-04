@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch quanLyTestDrive",
+            "request": "launch",
+            "mainClass": "com.kiemtragiuaky.quanLyTestDrive",
+            "projectName": "Java-code_db32d6e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SanPhamTestDrive",
+            "request": "launch",
+            "mainClass": "com.khoilg2008110135.tuan8.householdProducts.SanPhamTestDrive",
+            "projectName": "Java-code_db32d6e0"
+        },
+        {
+            "type": "java",
             "name": "Launch ListSanPham",
             "request": "launch",
             "mainClass": "com.khoilg2008110135.tuan8.householdProducts.ListSanPham",
