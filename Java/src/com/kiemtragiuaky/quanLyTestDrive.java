@@ -9,6 +9,6 @@ public class quanLyTestDrive {
         KhachHang khachHang = new KhachHang("null", "null", "null", 3);
         list.themNguoi(nhanVien);
         list.themNguoi(khachHang);
-        list.inList();
+        list.inDanhSach();
     }
 }

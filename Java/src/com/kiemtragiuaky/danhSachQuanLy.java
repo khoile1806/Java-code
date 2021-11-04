@@ -6,9 +6,9 @@ public class danhSachQuanLy {
     public void themNguoi(Object object){
         list.add(object);
     }
-    public void inList(){
-        for(Object obj: list){
-            System.out.println(obj.toString());
+    public void inDanhSach(){
+        for(Object object: list){
+            System.out.println(object.toString());
         }
         
     }
