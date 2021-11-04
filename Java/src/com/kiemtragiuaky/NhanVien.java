@@ -8,7 +8,7 @@ public class NhanVien extends Nguoi{
     }
     @Override
     public String toString() {
-        return super.toString()+" "+tinhLuong()+ " VND";
+        return super.toString()+" "+tinhLuong()+ " ";
     }
     NhanVien(String hoTen,String diaChi,float heSoLuong){
         super(hoTen,diaChi);
