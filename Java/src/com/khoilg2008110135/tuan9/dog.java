@@ -1,28 +1,32 @@
 package com.khoilg2008110135.tuan9;
 
-public class dog extends Animal{
+public class Dog extends animal {
+    public Dog(String name, double weight, int age) {
+        super(name, weight, age);
+    }
 
-	/**
-	 * @param name
-	 * @param d
-	 * @param breed
-	 */
-	public dog(String name, int d, String breed) {
-		super(name, d, breed);
-	}
-	
-	@Override
-	protected void makeNoise() {
-		System.out.println("ẳng ẳng ẳng!!!");
-	}
+    @Override
+    public void eat() {
+        System.out.println("Dog is eating");
+    }
 
-	@Override
-	protected void play() {
-		System.out.println("reloading !!!");
-	}
+    @Override
+    public void sleep(){
+        System.out.println("Dog is sleeping");
+    }
 
-	@Override
-	protected void eat() {
-		System.out.println("barking on people !!!");
-	}
+    @Override
+    public void roam() {
+        System.out.println("play catch with the boss");
+    }
+
+    @Override
+    public void chase() {
+        System.out.println("Dog is chasing the cat");
+    }
+
+    @Override
+    public void makeNoise() {
+        System.out.println("Dog is barking");
+    }
 }

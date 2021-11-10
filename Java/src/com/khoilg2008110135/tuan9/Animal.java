@@ -1,80 +1,61 @@
 package com.khoilg2008110135.tuan9;
 
-public class Animal {
-	private String name;
-	private int weight;
-	private String breed;
+public class animal {
+    private String name;
+    private double weight;
+    private int age;
+    
+    animal (String name, double weight, int age){
+        this.name = name;
+        this.weight = weight;
+        this.age = age;
+    }
 
-	/**
-	 * @return the name
-	 */
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	/**
-	 * @param name
-	 * @param weight
-	 * @param breed
-	 */
-	public Animal(String name, int weight, String breed) {
-		this.name = name;
-		this.weight = weight;
-		this.breed = breed;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	/**
-	 * @param name the name to set
-	 */
-	public void setName(String name) {
-		this.name = name;
-	}
+    public double getWeight() {
+        return weight;
+    }
 
-	/**
-	 * @return the weight
-	 */
-	public double getWeight() {
-		return weight;
-	}
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
 
-	/**
-	 * @param weight the weight to set
-	 */
-	public void setWeight(float weight) {
-		this.weight = (int) weight;
-	}
+    public int getAge() {
+        return age;
+    }
 
-	/**
-	 * @return the breed
-	 */
-	public String getBreed() {
-		return breed;
-	}
+    public void setAge(int age) {
+        this.age = age;
+    }
 
-	/**
-	 * @param breed the breed to set
-	 */
-	public void setBreed(String breed) {
-		this.breed = breed;
-	}
+    protected void eat(){
+        System.out.println("Animal is eating");
+    }
 
-	protected void makeNoise()
-	{
-		System.out.println("animal barking!!!");
-	}
+    protected void sleep(){
+        System.out.println("Animal is sleeping");
+    }
 
-	protected void play()
-	{
-		System.out.println("reload!!!");
-	}
+    protected void roam() {
+        System.out.println("Animal is relax");
+    }
 
-	protected void eat()
-	{
-		System.out.println("eating some thing!!!");
-	}
-	
-	protected void sleep()
-	{
-		System.out.println("sleeping !!!!");
-	}
+    protected void chase(){
+        System.out.println("Animal is chasing");
+    }
+
+    protected void makeNoise(){
+        System.out.println("Animal barking !!!");
+    }
+
+    public String toString() {
+        return "animal {" + "name=" + name + ", weight=" + weight + ", age=" + age + '}';
+    }
 }

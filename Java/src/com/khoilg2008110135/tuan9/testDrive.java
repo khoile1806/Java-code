@@ -1,14 +1,15 @@
 package com.khoilg2008110135.tuan9;
 
-public class testDrive {
-	public static void main(String[] args) {
-		quanLyDongVat listAnimal = new quanLyDongVat();
-		dog dog = new dog("stupid dog", 3, "mực");
-		cat cat = new cat("pussy cat", 10, "mun");
-		fish fish = new fish("a dumb fig", 1, "Cá");
-		listAnimal.add(dog);
-		listAnimal.add(cat);
-		listAnimal.add(fish);
-		listAnimal.makeNoise();
-	}	
+public class testdrive {
+    public static void main(String[] args) {
+        listAnimal list = new listAnimal();
+        Dog d = new Dog("dog", 2.5, 5);
+        Cat c = new Cat("cat", 10, 2);
+        Tiger t = new Tiger("cop", 200, 10);
+        list.addList(c);
+        list.addList(t);
+        list.addList(d);
+        list.showList();
+        list.findName();
+    }
 }
