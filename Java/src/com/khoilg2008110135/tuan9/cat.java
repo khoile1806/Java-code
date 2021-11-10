@@ -7,7 +7,7 @@ public class cat extends Animal{
 	 * @param d
 	 * @param breed
 	 */
-	public cat(String name, double d, String breed) {
+	public cat(String name, int d, String breed) {
 		super(name, d, breed);
 	}
 

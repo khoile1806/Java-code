@@ -2,7 +2,7 @@ package com.khoilg2008110135.tuan9;
 
 public class Animal {
 	private String name;
-	private double weight;
+	private int weight;
 	private String breed;
 
 	/**
@@ -17,7 +17,7 @@ public class Animal {
 	 * @param weight
 	 * @param breed
 	 */
-	public Animal(String name, double weight, String breed) {
+	public Animal(String name, int weight, String breed) {
 		this.name = name;
 		this.weight = weight;
 		this.breed = breed;
@@ -41,7 +41,7 @@ public class Animal {
 	 * @param weight the weight to set
 	 */
 	public void setWeight(float weight) {
-		this.weight = weight;
+		this.weight = (int) weight;
 	}
 
 	/**
@@ -75,6 +75,6 @@ public class Animal {
 	
 	protected void sleep()
 	{
-		System.out.println("zZz zZz zZz");
+		System.out.println("sleeping !!!!");
 	}
 }
