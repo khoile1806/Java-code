@@ -56,6 +56,6 @@ public class animal {
     }
 
     public String toString() {
-        return "animal {" + "name=" + name + ", weight=" + weight + ", age=" + age + '}';
+        return "animal {" + "name = " + name + ", weight = " + weight + ", age= " + age + '}';
     }
 }

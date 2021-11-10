@@ -21,6 +21,11 @@ public class listAnimal {
         for (animal Animal : listAnimal) {
             if (Animal.getName().equals(name)) {
                 System.out.println(Animal.toString());
+                break;
+            }
+            else {
+                System.out.println("Khong tim thay");
+                break;
             }
         }
     }
