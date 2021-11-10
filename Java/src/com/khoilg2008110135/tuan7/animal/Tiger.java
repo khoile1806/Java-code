@@ -7,7 +7,7 @@ public class Tiger extends Feline {
     }
 
     @Override
-    protected void makeNoices(){
+    public void makeNoices(){
         System.out.println("Tiger Barking !!!");
     }
 

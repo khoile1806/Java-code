@@ -8,7 +8,7 @@ public class Lion extends Feline {
     }
 
     @Override
-    protected void makeNoices(){
+    public void makeNoices(){
         System.out.println("Lion Barking !!!");
     }
 

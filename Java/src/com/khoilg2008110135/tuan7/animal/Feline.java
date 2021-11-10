@@ -2,7 +2,7 @@ package com.khoilg2008110135.tuan7.animal;
 
 public class Feline extends Animal{
     @Override
-    protected void Roam (){
+    public void Roam (){
         System.out.println("alone work");
     }
 
