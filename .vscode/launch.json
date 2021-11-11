@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch testDrive",
+            "request": "launch",
+            "mainClass": "com.khoilg2008110135.tuan10.testDrive",
+            "projectName": "Java-code_e2e47c3f"
+        },
+        {
+            "type": "java",
             "name": "Launch testdrive",
             "request": "launch",
             "mainClass": "com.khoilg2008110135.tuan9.testdrive",

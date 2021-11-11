@@ -29,4 +29,17 @@ public class listAnimal {
             }
         }
     }
+
+    public animal searchNameDog(String name){
+        Dog d = null;
+        for (animal animal : listAnimal) {
+            if(animal instanceof Dog){
+                Dog dog =(Dog)animal;
+                if(dog.getName().equalsIgnoreCase(name)){
+                    d = dog;
+                }
+            }
+        }
+        return d;
+    }
 }
